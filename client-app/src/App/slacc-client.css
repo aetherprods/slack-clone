@@ -1,12 +1,12 @@
-.App {
+.slacc-client {
   text-align: center;
 }
 
-.App-logo {
+.slacc-client-logo {
   height: 40vmin;
 }
 
-.App-header {
+.slacc-client-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -17,6 +17,6 @@
   color: white;
 }
 
-.App-link {
+.slacc-client-link {
   color: #09d3ac;
 }

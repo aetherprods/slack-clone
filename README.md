@@ -15,7 +15,7 @@ An attempt to build a basic slack clone, using mySQL for db, ASP.NET Core for th
 .                 |                                             |
 .                 v                                             |
 .               mySQL                                           |
------------------------------------------------------------------
+-----------------------------------------------------------------(github's summary will break my whitespace)
 
 While Slack uses a custom Java server for the message portion and a LAMP style PHP monolith for their webapp, as our intention is to learn to use .NET we will be writing both servers in .NET Core. Of course, there is no real need (for our purposes) to have two servers, but as we are attempting to emulate Slack's design, this is how we will be going forward. 
 

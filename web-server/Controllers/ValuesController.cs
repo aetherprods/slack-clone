@@ -4,6 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
+public class scobies
+{
+    public int scomp { get; set; }
+}
+
 namespace web_server.Controllers
 {
     [Route("api/[controller]")]
@@ -26,8 +31,9 @@ namespace web_server.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] scobies butt)
         {
+            System.Diagnostics.Debug.WriteLine(butt);
         }
 
         // PUT api/values/5
@@ -42,4 +48,13 @@ namespace web_server.Controllers
         {
         }
     }
+    public class UsersController : ControllerBase
+    {
+        //POST api/users/register
+
+        //POST api/users/login
+
+        //POST api/users/logout
+    }
 }
+
